@@ -1,0 +1,53 @@
+.index-default {
+    width: 90%;
+    margin: 100px auto;
+}
+
+.card-content {
+    width: 100%;
+}
+
+.card {
+    width: 100%;
+    margin-bottom: 100px;
+    -webkit-box-shadow: 2px 7px 20px 1px rgba(143, 137, 143, 1);
+    -moz-box-shadow: 2px 7px 20px 1px rgba(143, 137, 143, 1);
+    box-shadow: 2px 7px 20px 1px rgba(143, 137, 143, 1);
+}
+
+.card-body span {
+    font-size: 12px;
+    color: #5a5a5a;
+}
+
+.card-body>.card-title {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.card-body>.card-title>a {
+    text-decoration: none;
+    color: #252a34;
+    transition: 300ms;
+}
+
+.card-body>.card-title>a:hover {
+    text-decoration: none;
+    color: #ff2e63;
+    transition: 300ms;
+}
+
+.card-body p {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.card-body .see-post {
+    text-decoration: none;
+    color: #252a34;
+    transition: 300ms;
+}
+
+.card-body .see-post:hover {
+    color: #ff2e63;
+}

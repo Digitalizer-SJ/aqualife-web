@@ -1,0 +1,185 @@
+/** Import font **/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fff;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+#main {
+    width: 100%;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 20px;
+}
+
+a {
+    color: #ff2e63;
+}
+
+a:hover {
+    color: #ff2e63;
+}
+
+img {
+    width: 100%;
+}
+
+img.aligncenter {
+    width: 100%;
+}
+
+
+/** Pagination **/
+
+.page-link {
+    color: #ff2e63;
+    transition: 300ms;
+}
+
+.page-link:hover {
+    background: #252a34 !important;
+    color: #eaeaea;
+}
+
+.page-item.active .page-link {
+    background: #252a34 !important;
+    border-color: #dee2e6 !important;
+}
+
+.btn {
+    background: #ff2e63;
+    border: none;
+    transition: 300ms;
+}
+
+.btn:hover {
+    background: #ff7397;
+}
+
+.btn:focus {
+    background: #ff2e63;
+}
+
+p {
+    font-weight: 300;
+}
+
+
+/* Content Page */
+
+.content-page {
+    margin-top: 30px;
+    padding-right: 50px;
+}
+
+.content-page p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.info-article {
+    width: 100%;
+}
+
+.info-article span {
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+
+/* Category */
+
+.archive-title {
+    margin-top: 50px;
+}
+
+
+/* Comment -----------------------------------*/
+
+.comment-section {
+    width: 100%;
+    margin-top: 80px;
+}
+
+.comment-title {
+    font-size: 33px;
+    font-weight: 300;
+    margin-bottom: 80px;
+}
+
+.comment-section .reply {
+    margin: 0px 10 px;
+}
+
+.comment-section .edit {
+    margin: 0px 10 px;
+}
+
+.comment-form-comment>label {
+    font-size: 25px;
+}
+
+#comment {
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ff2e63;
+    padding: 5px;
+}
+
+#submit {
+    width: 100%;
+    padding: 5px;
+    outline: none;
+    border: 1px solid #ff2e63;
+    margin-top: 20px;
+    background: #ff2e63;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+#submit:hover {
+    background-color: #ff7397;
+}
+
+ul.Childen {
+    margin-left: 30px;
+}
+
+
+/* Responsive --------------------------------*/
+
+@media only screen and (max-width: 991px) {
+    .page-content {
+        padding: 30px;
+    }
+}

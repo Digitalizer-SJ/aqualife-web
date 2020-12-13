@@ -1,0 +1,126 @@
+.img-header-content {
+    position: relative;
+    width: 100%;
+    height: 657px;
+}
+
+.header-image {
+    width: 100%;
+    height: 100%;
+}
+
+.header-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img-header-content .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 657px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.img-header-content .header-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img-header-content .header-text h1 {
+    color: #fff;
+    font-size: 50px;
+    margin: 0px 50px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.skew-down {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-width: 0 0 10vh 100vw;
+    border-style: solid;
+    border-color: transparent transparent #fff transparent;
+}
+
+
+/* Image Header Page ----------------------------------------- */
+
+.img-header-page {
+    position: relative;
+    width: 100%;
+    height: 657px;
+}
+
+.page-image {
+    width: 100%;
+    height: 100%;
+}
+
+.page-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img-header-page .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 657px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.img-header-page .page-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img-header-page .page-text h1 {
+    color: #fff;
+    font-size: 50px;
+    margin: 0px 50px;
+    font-weight: 300;
+    text-align: center;
+}
+
+
+/* Responsive -------------------------------------------- */
+
+
+/* Página principal */
+
+@media only screen and (max-width:725px) {
+    .img-header-content .header-text h1 {
+        font-size: 35px;
+        margin: 0px 30px;
+    }
+}
+
+
+/* Page */
+
+@media only screen and (max-width:725px) {
+    .img-header-page .page-text h1 {
+        font-size: 35px;
+        margin: 0px 30px;
+    }
+}
