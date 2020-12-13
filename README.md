@@ -1,2 +1,3 @@
-# aqualife-web
-Este es el proyecto html - css - js, para crear un blog de nicho
+# Proyecto Aqualife
+###### 
+Este es un proyecto para crear un blog con html, css y js para personas que necesiten crear nichos de información.
